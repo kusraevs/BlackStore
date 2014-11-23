@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ptr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5" >
+
+    <com.example.blackstore.goods.GridViewWithHeaderAndFooter
+        android:id="@+id/goods_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="70dp"
+        android:gravity="center"
+        android:horizontalSpacing="4dip"
+        android:numColumns="auto_fit"
+        android:padding="2dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dip" />
+
+</LinearLayout>
